@@ -1,0 +1,16 @@
+{
+  "name": "前端应用", 
+  "version": "1.0.0",
+  "description": "前端应用",
+  "title": "前端应用",
+  "url" : "http://127.0.0.1:8000/api",
+  "sampleUrl": "http://127.0.0.1:8000/api",
+  "header": {
+    "title": "接口文档",
+    "filename": ""
+  },
+  "template": {
+  	"withCompare": true,
+  	"withGenerator": false
+  }
+} 

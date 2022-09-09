@@ -1,0 +1,206 @@
+// 定制按钮
+.el-button--mini, .el-button--mini.is-round {
+  padding: 7px 10px;
+}
+
+.el-button + .el-button {
+  margin: 0px 0px 5px 2px;
+}
+
+.el-button:first-child {
+  margin: 0px 0px 5px 2px;
+}
+
+
+// 列表中的图片
+.table_list_pic {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+}
+
+// element card 底部间距
+.card {
+  .el-card {
+    margin-bottom: 15px;
+  }
+}
+
+// 表单分段头部标题样式
+.form_section_header {
+  font-size: 1.2em;
+  color: #00C777;
+}
+
+// index 页面左侧栏
+.left_tree {
+  max-height: calc(100vh - 126px);
+  width: 100%;
+}
+// index 页面当跳转时，头部插槽的样式
+.card_header{
+  .title {
+    font-size:14px;
+    font-weight: bold;
+  }
+  .button {
+    float:right;
+  }
+}
+// index 页面的基本结构(注释掉的为测试使用)
+.main_area {
+  width:100%;
+
+  .search_area{
+    .vxe-toolbar{
+      height: auto!important;
+    }
+  }
+  .action_area{
+    .vxe-toolbar{
+      height: auto!important;
+    }
+  }
+  // 普通页面表格样式
+  .table_area{
+    height: calc(100vh - 235px);
+    width: 100%;
+  }
+  // 菜单页面表格样式
+  .table_area_menu{
+    height: calc(100vh - 250px);
+    width: 100%;
+  }
+  // 弹窗中的表格样式
+  .table_area_iframe{
+    height: calc(100vh - 155px);
+    width: 100%;
+  }
+  // 跳转带返回的表格样式
+  .table_area_tags{
+    height: calc(100vh - 287px);
+    width: 100%;
+  }
+  .pagination_area{
+    //min-height: 30px;
+    //background-color: #5188f0;
+  }
+}
+
+// 表单样式的重新定义，调整校验信息显示，调整表单提示信息显示
+.form {
+  padding: 0px 20px;
+  .el-form-item__content {
+    margin-bottom: 16px;
+    .el-form-item__error {
+      display: flex;
+      align-items: center;
+      height: 8px;
+    }
+    .form-desc {
+      display: flex;
+      font-size: 0.8em;
+      line-height: 1.8em;
+      color: #108d10;
+      padding-top: 5px;
+    }
+  }
+  .el-tabs--card {
+    height: calc(80vh - 170px);
+  }
+  .el-tab-pane {
+    height: calc(80vh - 170px);
+    overflow-y: auto;
+  }
+}
+
+
+  // 表格工具栏
+  .x-toolbar {
+    display: flex;
+    height: auto !important;
+    .toolbar-button {
+      .form-item-margin{
+        margin: 0px 2px;
+        width: 100px;
+      }
+    }
+  }
+
+  // 树形选择器的大小样式
+  .medium {
+    .vue-treeselect__control {
+      height: 36px !important;
+      font-size: 14px !important;
+      .vue-treeselect__value-container {
+        .vue-treeselect__placeholder {
+          line-height: 36px !important;
+        }
+      }
+    }
+  }
+  .small {
+    .vue-treeselect__control {
+      height: 32px !important;
+      font-size: 13px !important;
+      .vue-treeselect__value-container {
+        .vue-treeselect__placeholder {
+          line-height: 32px !important;
+        }
+      }
+    }
+  }
+
+  .mini {
+    .vue-treeselect__control {
+      height: 28px !important;
+      font-size: 12px !important;
+      .vue-treeselect__value-container {
+        .vue-treeselect__placeholder {
+          line-height: 28px !important;
+        }
+      }
+    }
+  }
+ .vxe-custom--option {
+   height: 30px;
+   line-height: 20px;
+ }
+
+ // 配置表单
+ .config_form {
+   .el-form-item__content {
+     margin-bottom: 16px;
+     .el-form-item__error {
+       display: flex;
+       align-items: center;
+       height: 8px;
+     }
+     .form-desc {
+       display: flex;
+       font-size: 0.8em;
+       line-height: 1.8em;
+       color: #108d10;
+       padding-top: 5px;
+     }
+   }
+   .card_content {
+     height: calc(100vh - 190px);
+     overflow-y: auto;
+   }
+   .col_wrap {
+     display: flex;
+     justify-content: flex-start;
+     flex-direction: column;
+     flex-wrap:wrap;
+     width: 98%;
+     // background-color: #4AB7BD;
+     padding: 10px;
+     height: calc(100vh - 260px);
+   }
+   .col_wrap_item{
+     padding: 5px;
+     width: 50%;
+   }
+ }
+
